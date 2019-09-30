@@ -1,0 +1,24 @@
+ul {
+    font-family: "Arial";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 34%;
+}
+li {
+    padding: 10px;
+}
+table {
+    padding: 7px;
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    padding: 10px;
+}
+.even {
+    background: #C8C8C8;
+}
+.odd {
+    background: #E8E8E8;
+}
