@@ -5,3 +5,10 @@ img {
     width: 20%;
     vertical-align: middle;
 }
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.row {display: flex}
+.col-1 {flex: 1;}
+.col-2 {flex: 2;}
