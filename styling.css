@@ -1,14 +1,82 @@
 h1 {
     font-family: 'Anton', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+}
+h2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+nav {
+    background-color: pink;
+}
+.menu {
+    list-style-type: none;
+    display: inline;
 }
 img {
-    width: 20%;
-    vertical-align: middle;
+    width: 100%;
+}
+aside{
+    background-color: pink;
 }
 body {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Anton', sans-serif;
 }
+
 .row {display: flex}
-.col-1 {flex: 1;}
-.col-2 {flex: 2;}
+.col-1 {flex: 1;
+padding: 5px;}
+.col-2 {flex: 2;
+    padding: 5px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about {
+    padding-bottom: 125px;
+    line-height: 25px;
+}
+.aboutmepic {
+    width: 80%;
+}
+.eyelash-body {
+    margin-right: 15%;
+    margin-left: 10%;
+    line-height: 25px;
+}
+.eyelashh2 {
+    text-align: left;
+    font-size: 30px;
+}
+section {
+    font-size: 19px;
+    text-align: justify;
+}
+.extensions {
+    float: left;
+    padding: 10px;
+}
+.eyebrow {
+    float: right;
+    padding: 10px;
+}
+.color_h2 {
+    text-align: left;
+    font-size: 30px;
+}
+.colors {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.color_image {
+    width: 30%;
+}
+
